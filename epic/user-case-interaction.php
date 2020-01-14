@@ -5,6 +5,6 @@
 	<title>User Case Interaction</title>
 <body>
 <ul>
-	<li>As a freelancer, I want to be able to quickly and efficiently communicate with current and prospective clients</li>
+	<li>As a freelancer, I want to be able to quickly and efficiently negotiate jobs with current and prospective clients</li>
 </ul>
 </body>
