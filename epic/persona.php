@@ -9,10 +9,10 @@
 	<h1 class="center">Johnathan</h1>
 	<p class="center"><img src="Data-design-image.jpg" alt="The image didn't load :("></p>
 	<ul class="center">
-		<li>Age: 30</li>
-		<li>Gender: Male</li>
-		<li>Occupation: Graphic designer</li>
-		<li>Technology: Macpro with Cintiq graphics tablet</li>
+		<li class="center">Age: 30</li>
+		<li class="center">Gender: Male</li>
+		<li class="center">Occupation: Graphic designer</li>
+		<li class="center">Technology: Macpro with Cintiq graphics tablet</li>
 	</ul>
 <div>
 	<ul>
