@@ -13,4 +13,5 @@
 		<li>Johnathan sends several drafts of the logo to be reviewed by the client</li>
 		<li>The logo is sent to the client by the deadline, the client pays Johnathan as per the conditions outlined in their agreement</li>
 	</ul>
+	<a href="index.php">Back to Index</a>
 </body>

@@ -19,4 +19,5 @@
 	<li>Fiverr is tailor made for the user to find jobs quickly and easily over other options such as Craigslist</li>
 	</ul>
 </div>
+<a href="index.php">Back to Index</a>
 </body>
