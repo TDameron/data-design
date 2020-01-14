@@ -3,11 +3,12 @@
 <head>
 	<meta charset="utf-8">
 	<title>Persona</title>
+	<link rel="stylesheet" href="Styles/style.css">
 </head>
 <body>
-	<h1>Johnathan</h1>
-	<img src="Data-design-image.jpg" alt="The image didn't load :("> 
-	<ul>
+	<h1 class="center">Johnathan</h1>
+	<p class="center"><img src="Data-design-image.jpg" alt="The image didn't load :("></p>
+	<ul class="center">
 		<li>Age: 30</li>
 		<li>Gender: Male</li>
 		<li>Occupation: Graphic designer</li>
