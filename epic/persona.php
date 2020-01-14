@@ -13,4 +13,10 @@
 		<li>Occupation: Graphic designer</li>
 		<li>Technology: Macpro with Cintiq graphics tablet</li>
 	</ul>
+<div>
+	<ul>
+	<li>User is a professional graphic designer who plans to use Fiverr to make money as a side job</li>
+	<li>Fiverr is tailor made for the user to find jobs quickly and easily over other options such as Craigslist</li>
+	</ul>
+</div>
 </body>
