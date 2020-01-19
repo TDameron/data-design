@@ -13,6 +13,7 @@
 		<li class="center">Gender: Male</li>
 		<li class="center">Occupation: Graphic designer</li>
 		<li class="center">Technology: Macpro with Cintiq graphics tablet</li>
+		<li class="center">Uses the most recent operating system to allow compatibility with newest photoshop updates.</li>
 	</ul>
 <div>
 	<ul>

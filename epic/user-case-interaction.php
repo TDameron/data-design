@@ -4,13 +4,12 @@
 	<meta charset="utf-8">
 	<title>User Case Interaction</title>
 <body>
-<h1>User Case Interaction</h1>
-<p><strong>User Precondition: </strong> Johnathan is looking to make extra money doing smaller jobs that require his graphic design skillset.</p>
+<h1>Use Case Interaction</h1>
+<p><strong>Use Case Interaction:</strong>Johnathan is looking to make extra money doing smaller jobs that require his graphic design skillset.</p>
+<p><strong>User Precondition: </strong> Johnathan is a graphic designer who is partially self-taught and has his bachelors degree in graphic design. Johnathan has created a profile on Fiverr and posted his resume under the "Art and Graphic Design" section.</p>
+<p></p>
 <div>
 <ul>
-	<li>Johnathan is a graphic designer who is partially self-taught and has his bachelors degree in graphic design.</li>
-	<li>Johnathan has created a profile on Fiverr and posted his resume under the "Art and Graphic Design" section.</li>
-	<li><strong>Johnathan's profile and information is now stored in the server and is able to log in through the browser.</strong></li>
 	<li>Johnathan has been contacted by the owner of a small business who wants a logo designed for their food truck.</li>
 	<li><strong>The browser gives Johnathan a notification that he has a new message.</strong></li>
 	<li>Johnathan opens the message and replies by sending a resume and starts a chat through Fiverr's chat system.</li>
@@ -22,10 +21,44 @@
 	<li>The final logo is sent to the client for a final review.</li>
 	<li><strong>The browser lets Johnathan know that he has sent his final draft and will alert him when the client responds.</strong></li>
 	<li>The client pays Johnathan via paypal and is given access to the photoshop files for the final product for personal/business use.</li>
-	<li><strong>Johnathan recieves a notification through Fiverr that his final draft was accepted</strong></li>
+	<li><strong>Johnathan receives a notification through Fiverr that his final draft was accepted</strong></li>
 	<li><strong>Fiverr server automatically sends a receipt to Johnathan and the client and invites the client to leave a review for Johnathan.</strong></li>
-</ul>
+	</ul>
+
+	<p><strong>User Postcondition: </strong> Johnathan was able to acquire and complete a small graphic design job in his spare time and has received payment from the client.</p>
+
+	<h1>Conceptual Model</h1>
+	<p><strong>User</strong></p>
+	<ul>
+		<li>userID(primary key)</li>
+		<li>userDescription</li>
+		<li>userRating</li>
+		<li>userLevel</li>
+		<li>userGigs</li>
+	</ul>
 </div>
-<p><strong>User Postcondition: </strong> Johnathan was able to acquire and complete a small graphic design job in his spare time and has received payment from the client.</p>
+	<p><strong>Message</strong></p>
+	<ul>
+		<li>messageID(primary keuy)</li>
+		<li>messageUserID(foreign key 1)</li>
+		<li>messageOtherUserID(foreign key 2)</li>
+		<li>messageSenderID</li>
+		<li>messageContent</li>
+		<li>messageDate</li>
+	</ul>
+
+	<p><strong>Gigs</strong></p>
+	<ul>
+		<li>gigID (foreign key 1)</li>
+		<li>gigContractID</li>
+		<li>gigDate</li>
+		<li>gigDescription</li>
+	</ul>
+
+<h3>ERD</h3>
+
+<img src="Data%20Design%20ERD%20Final.png" alt="ask about what alt does later"/>
+<div>
 <a href="index.php">Back to Index</a>
+</div>
 </body>
