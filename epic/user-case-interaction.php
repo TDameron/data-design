@@ -32,32 +32,35 @@
 	<ul>
 		<li>userID(primary key)</li>
 		<li>userDescription</li>
-		<li>userRating</li>
+		<li>userEmail</li>
+		<li>userHash</li>
 		<li>userLevel</li>
-		<li>userGigs</li>
+		<li>userRating</li>
+
+
 	</ul>
 </div>
 	<p><strong>Message</strong></p>
 	<ul>
 		<li>messageID(primary keuy)</li>
 		<li>messageUserID(foreign key 1)</li>
-		<li>messageOtherUserID(foreign key 2)</li>
 		<li>messageSenderID</li>
 		<li>messageContent</li>
 		<li>messageDate</li>
+		<li>messageOtherUserID(foreign key 2)</li>
 	</ul>
 
 	<p><strong>Gigs</strong></p>
 	<ul>
 		<li>gigID (foreign key 1)</li>
-		<li>gigContractID</li>
+		<li>gigContractID (foreign key 2)</li>
 		<li>gigDate</li>
 		<li>gigDescription</li>
 	</ul>
 
 <h3>ERD</h3>
 
-<img src="Data%20Design%20ERD%20Final.png" alt="ask about what alt does later"/>
+<img src="Data-Design Final ERD.png" alt="ask about what alt does later"/>
 <div>
 <a href="index.php">Back to Index</a>
 </div>
