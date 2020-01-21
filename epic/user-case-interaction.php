@@ -42,18 +42,19 @@
 </div>
 	<p><strong>Message</strong></p>
 	<ul>
-		<li>messageID(primary keuy)</li>
-		<li>messageUserID(foreign key 1)</li>
-		<li>messageSenderID</li>
+		<li>messageId(primary key)</li>
+		<li>messageUserId(foreign key 1)</li>
+		<li>messageOtherUserId(foreign key 2)</li>
 		<li>messageContent</li>
 		<li>messageDate</li>
-		<li>messageOtherUserID(foreign key 2)</li>
+		<li>messageSenderId</li>
+
 	</ul>
 
 	<p><strong>Gigs</strong></p>
 	<ul>
-		<li>gigID (foreign key 1)</li>
-		<li>gigContractID (foreign key 2)</li>
+		<li>gigId (foreign key 1)</li>
+		<li>gigUserId (foreign key 2)</li>
 		<li>gigDate</li>
 		<li>gigDescription</li>
 	</ul>
