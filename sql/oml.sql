@@ -11,4 +11,17 @@ INSERT INTO message(messageId, messageUserId, messageContent, messageDate)
 
 DELETE FROM message WHERE messageId = UNHEX('7c367c7f755a4ef487bcec227892a0e0');
 
+INSERT INTO message(messageId, messageUserId, messageContent, messageDate)
+VALUES(UNHEX('7c367c7f755a4ef487bcec227892a0e0'),UNHEX('42cbc899d47c4ad5bfa6ecba31f451c5'), 'Cats is amazing, I dont care what anyone says', NOW());
+
+SELECT userId from user where userId = UNHEX('7c367c7f755a4ef487bcec227892a0e0');
+
+SELECT user.userDescription FROM user INNER JOIN message	on user.userId = message.messageId WHERE user.userId = true;
+
+/*
+
+SELECT profile from user where profileId = UNHEX('pretend there is a UUID here.');
+
+
+ */
 /* FOREIGN KEYS MUST EXIST IN THE PARENT TABLE OR MY SQL WILL THROW A VIOLATION
