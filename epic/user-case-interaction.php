@@ -32,7 +32,7 @@
 	<ul>
 		<li>userID(primary key)</li>
 		<li>userDescription</li>
-		<li>userEmail</li>
+		<li>userGigs</li>
 		<li>userHash</li>
 		<li>userLevel</li>
 		<li>userRating</li>

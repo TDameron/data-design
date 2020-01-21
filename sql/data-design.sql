@@ -1,4 +1,4 @@
- ALTER DATABASE tdameron1 CHARACTER SET utf8 COLLATE utf8_cunicdoe_ci;
+ ALTER DATABASE tdameron1 CHARACTER SET utf8 COLLATE utf8_unicode_ci;
 
  DROP TABLE IF EXISTS gigs;
  DROP TABLE IF EXISTS message;
