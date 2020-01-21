@@ -40,18 +40,16 @@
 
 	</ul>
 </div>
-	<p><strong>Message</strong></p>
+	<p><strong>message</strong></p>
 	<ul>
 		<li>messageId(primary key)</li>
 		<li>messageUserId(foreign key 1)</li>
-		<li>messageOtherUserId(foreign key 2)</li>
 		<li>messageContent</li>
 		<li>messageDate</li>
-		<li>messageSenderId</li>
 
 	</ul>
 
-	<p><strong>Gigs</strong></p>
+	<p><strong>gigs</strong></p>
 	<ul>
 		<li>gigId (foreign key 1)</li>
 		<li>gigUserId (foreign key 2)</li>
@@ -61,7 +59,7 @@
 
 <h3>ERD</h3>
 
-<img src="Data-Design Final ERD.png" alt="ask about what alt does later"/>
+<img src="DataDesign ERD.png" alt="ask about what alt does later"/>
 <div>
 <a href="index.php">Back to Index</a>
 </div>
